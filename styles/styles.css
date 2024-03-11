@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     height: 80px;
     width: 100%;
+    max-width: 100%;
     padding: 15px 5vw;
     margin-bottom: 100px;
 }
@@ -113,6 +114,7 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 100%;
     padding: 20px 7%;
     margin-bottom: 100px;
 }
@@ -196,6 +198,7 @@ button:hover{
     width: 100%;
     padding: 20px 7%;
     margin-bottom: 100px;
+    max-width: 100%;
 }
 
 /* Services Title */
@@ -277,6 +280,7 @@ button:hover{
     gap: 30px;
     margin-bottom: 100px;
     width: 100%;
+    max-width: 100%;
 }
 
 /* Projects Title */
@@ -341,6 +345,7 @@ button:hover{
     gap: 100px;
     margin-bottom: 100px;
     width: 100%;
+    max-width: 100%;
 }
 
 /* Testimonials Title */
@@ -452,6 +457,7 @@ footer{
     gap: 100px;
     padding: 20px 7%;
     width: 100%;
+    max-width: 100%;
 }
 
 /* Footer Title */
