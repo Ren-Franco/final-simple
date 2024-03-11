@@ -45,6 +45,10 @@ header .header-nav a{
     font-size: 24px;
 }
 
+header .mobile-nav{
+    display: none;
+}
+
 header .header-logo{
     display: flex;
     align-items: center;
@@ -92,12 +96,12 @@ button:hover{
 }
 
 .btn-nav{
-    height:30px;
-    width:70px;
+    height:45px;
+    width:105px;
     box-shadow: 0 2px 5px #ffffff88;
     font-family: var(--secondary-font);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /* --------------------HERO-------------------- */
@@ -235,7 +239,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width: 300px;
+    width: 25%;
     height: 400px;
     padding: 25px 15px;
     border: 3px solid var(--secondary-color);
@@ -272,6 +276,7 @@ button:hover{
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 /* Projects Title */
@@ -335,6 +340,7 @@ button:hover{
     flex-direction: column;
     gap: 100px;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 /* Testimonials Title */
@@ -445,6 +451,7 @@ footer{
     flex-direction: column;
     gap: 100px;
     padding: 20px 7%;
+    width: 100%;
 }
 
 /* Footer Title */
@@ -531,7 +538,7 @@ footer .footer-links .subscribe-option .email-input button{
     height: 90%;
     width: 50%;
     border: 1px solid var(--secondary-color);
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.222);
     font-family: var(--tertiary-font);
     font-weight: 500;
 }
@@ -570,3 +577,58 @@ footer .footer-end .footer-end-text span{
 footer .footer-end .footer-end-text i{
     color: var(--secondary-color);
 }
+
+/* --------------------MEDIA SCREEN-------------------- */
+
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+
+    header .header-nav{
+        display: none;
+    }
+
+    header .mobile-nav{
+        display: flex;
+        font-size: 28px;
+    }
+
+    /* Hero */
+    .section-hero .hero-img {
+        display: none;
+    }
+
+    .section-hero{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-hero .hero-text{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-hero .hero-text p{
+        width: 70%;
+    }
+
+    .section-hero .hero-text span{
+        width: 70%;
+        text-align: center;
+    }
+
+    /* Services 
+
+    .section-services .services-cards{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .section-services .services-cards .serv-card{
+        width: 80%;
+        height: 30%;
+    }
+
+    .section-services .services-cards .serv-card {}
+    */
