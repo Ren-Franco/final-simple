@@ -584,6 +584,10 @@ footer .footer-end .footer-end-text i{
 
     /* Header */
 
+    header{
+        width: 100%;
+    }
+
     header .header-nav{
         display: none;
     }
@@ -618,11 +622,10 @@ footer .footer-end .footer-end-text i{
         text-align: center;
     }
 
-    /* Services 
+    /* Services */
 
     .section-services .services-cards{
         flex-direction: column;
-        height: 100vh;
     }
 
     .section-services .services-cards .serv-card{
@@ -630,6 +633,39 @@ footer .footer-end .footer-end-text i{
         height: 30%;
     }
 
-    .section-services .services-cards .serv-card {}
-    */
+
+    /* Projects */
+
+    .section-projects .projects-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-projects .projects-nav{
+        display: none;
+    }
+
+    /* Testimonials */
+
+    .section-testimonials .testimonials-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .section-testimonials .testimonials-cards .testi-card p{
+        font-size: 12px;
+    }
+
+    .section-testimonials .testimonials-nav{
+        display: none;
+    }
+
+    /* Footer */
+
+    footer{
+        width: 100%;
+    }
 }
