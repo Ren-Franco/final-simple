@@ -645,7 +645,7 @@ footer .footer-end .footer-end-text i{
     .section-projects .projects-images{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 30px;
         align-items: center;
     }
 
@@ -661,6 +661,10 @@ footer .footer-end .footer-end-text i{
         gap: 50px;
     }
 
+    .section-testimonials .testimonials-cards .testi-card{
+        height: 300px;
+    }
+
     .section-testimonials .testimonials-cards .testi-card p{
         font-size: 12px;
     }
@@ -674,4 +678,20 @@ footer .footer-end .footer-end-text i{
     footer{
         width: 100%;
     }
+
+    footer .footer-end .footer-end-text{
+        font-size: 12px;
+    }
+
+    footer .footer-links .subscribe-option .email-input{
+        width:200px;
+    }
+
+    footer .footer-links .subscribe-option .email-input button{
+        right: -50px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    
 }
